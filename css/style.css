@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body
+{
+	font-family: 'Roboto', sans-serif;
+
+}
+.banner
+{
+	background:url(banner.jpg) fixed;
+}
+.banner-transparent
+{
+	background: rgba(0,0,0,.6);
+	height:630px;	
+
+}
+.navbar-fixed-top
+{	
+	padding-top: 25px;
+	background: transparent;
+	border:none;
+	transition: .3s;
+}
+.navbar-brand
+{
+	font-family: 'Satisfy', cursive;
+	font-size: 37px;
+	color: #fff!important;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav > li > a
+{
+	color: #fff!important;		
+}
+.top-nav-collapse
+{
+	background: rgba(0,0,0,.8);
+	padding-top: 0px;
+}
+.banner h1
+{
+	line-height: 55px;
+	padding: 30px;
+	border-left: 5px solid #bd2525;
+	color: #fefefe;
+	margin-top: 150px;
+}
+.banner h1 span
+{
+	font-family: 'Satisfy', cursive;
+}
+.circle
+{
+	width: 40px;
+	height: 40px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 100px;
+}
+.cc
+{
+	color: #fff;
+	padding:7px 0px 0px 11px;
+	font-size: 25px;
+}
+.about
+{
+	background: url('http://kaflesajan.com.np/example/global/img/about-banner.jpg')!important;
+	height: 450px;
+	padding-top: 80px;
+	margin: none;
+	background-color: #f0f1e9; 
+}
+
+.about h2
+{
+	border-right: 5px solid #be2525;
+	padding-right: 30px;
+}
+.about h2 span
+{
+	font-family: 'Satisfy', cursive;
+}
+.about p
+{
+	color: #444;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+.about h4
+{
+	line-height: 40px;
+	padding-left: 80px;
+}
+.portfolio
+{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	background: #f0f1e9;
+	margin: none;
+}
+.portfolio span
+{
+	font-family: 'Satisfy', cursive;
+}
+.see .col-md-4
+{
+	margin: 0px;
+}
+.test
+{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: #ffffff;
+	margin: none;
+}
+.test span
+{
+	font-family: 'Satisfy', cursive;
+}
+.test .row
+{
+	padding-top: 40px;
+}
+.cols
+{
+	background:#eeeeee;
+	border-left: #c3c3c3 5px solid;
+	padding: 12px;
+	font-size: 16px;
+}
+.arrow
+{
+	width: 1px;
+	border-right: 15px solid transparent;
+	border-left: 15px solid transparent;
+	border-top: 15px solid #eeeeee;
+	margin-left: 30%;
+}
+#contact
+{
+	background: #1b1a1a;
+	padding: 100px 0px 80px 0px;
+	font-weight: bold;
+	color: #fff;
+}
+#contact h3
+{
+	font-size: 28px;
+}
+#contact p
+{
+	font-size: 18px;
+}
+#contact span
+{
+	font-family: 'Satisfy', cursive;
+}
+.bottom
+{
+	background: #be2525;
+	padding:10px 20px;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+}
+.foot
+{
+	padding: 30px 0px;
+}
+.foot h5
+{
+	font-size: 15px;
+	line-height: 23px;
+}
+.fafa
+{
+	font-size: 30px;
+	color: #92b6d1;
+}
