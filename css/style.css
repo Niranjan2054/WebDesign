@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Candal');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body
+{
+	font-family: 'Open Sans', sans-serif;
+	height: 1900px;
+}
+.banner
+{
+	background:url('http://kaflesajan.com.np/example/Medilab/img/bg-banner.jpg') fixed;
+	background-size: cover;
+}
+.banner-inner
+{
+	background:rgba(13, 70, 83, 0.78);
+	height: 650px;
+}
+.navbar-default a sup
+{
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+.navbar-default
+{
+	background:transparent;
+	border: none;
+	padding-top: 20px;
+	transition: .3s;
+}
+.top-nav-collapse
+{
+	background:rgba(13, 70, 83, 0.9);
+	padding: 0px;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+{
+	color: #fff;
+	font-size: 32px;
+	font-weight: normal;
+}
+.navbar-default .navbar-nav > li > a
+{
+	color: #fff;
+}
+.bg
+{
+	padding-top: 200px;
+	color: #fff;
+}
+.bg h1
+{
+	font-size: 50px;
+}
+.navbar-default .navbar-nav>.active>a,  .navbar-default .navbar-nav>.active>a:hover
+{
+	background: rgba(12,184,182,.5);
+	color: #fff;
+}
+.row h1 sup
+{
+	color: #f00;
+}
+.row .health
+{
+	font-family: 'Candal', sans-serif;
+	font-size: 34px;
+}
+.row p
+{
+	font-size: 16px;
+}
+.pad
+{
+	font-size: 12px;
+	padding: 15px;
+	margin-top: 20px;
+}
+.down
+{
+	padding-top: 120px;
+	margin: auto;
+}
+.down a
+{
+	color: #fff;
+	font-size: 20px;
+}
+.bg2
+{
+	padding-top: 50px;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+}
+.bg2 p
+{
+	color: rgb(153, 153, 153);
+}
+.bg2 i
+{
+	font-size: 45px;
+	margin-bottom: 15px;
+	color: #0cb8b6;
+}
+.bg3
+{
+	background:#0cb8b6;
+	color: #fff;
+	padding: 15px;
+	padding-bottom: 30px;
+	border-right: 1px solid #fff;
+}
+.bg3 h3
+{
+	color: #fff;
+	line-height: 30px;
+}
+.bg3 p
+{
+	color: #fff;
+}
+hr
+{
+	height: 3px;
+	background:#ffb737;
+}
+.read
+{
+	border: 2px solid #fff;
+	padding: 8px;
+	font-size: 12px;
+	color: #fff;
+}
+.read a:hover
+{
+	color: #fff;
+}
+.bg31
+{
+	background:#0cb8b6;
+	padding-bottom: 86px;
+}
+.bg4
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.bg4 h1
+{
+	font-size: 32px;
+}
+.bg4 p
+{
+	color: rgb(153, 153, 153);
+}
+.bg4 h4
+{
+	font-size: 22px;
+}
+.bg4 .p
+{
+	color: rgb(153, 153, 153);
+	text-align: justify;
+}
+.bg4 a
+{
+	color: #aae0eb;
+}
+.circle, .circle1
+{
+	width: 44px;
+	height: 44px;
+	background:#0cb8b6;
+	border-radius: 50%;
+	padding-top: 10px;
+	padding-left: 18px;
+
+}
+.circle i ,.circle1 i
+{
+	font-size: 25px;
+	color: #fff;
+}
+.circleposition 
+{
+	position:relative;
+}
+.circle
+{
+	position: absolute;
+	top: 45px;
+	left: -80px;
+}
+.circle1
+{
+	position: absolute;
+	top: 165px;
+	left: -80px;
+}
+.bg5
+{
+	padding-bottom: 100px;
+}
+.bg51 
+{
+	border: 1px solid #ccc;
+	margin: 11px;
+	width: 23%;
+}
+.bg5 h3
+{
+	font-weight: bold;
+}
+.bg51  i
+{
+	color: #337ab7;
+}
+.bg6
+{
+	background:#eeeeee;
+	padding: 50px 0px 150px 0px;
+}
+.bg6 h3
+{
+	font-weight: bold;
+}
+.bg61
+{
+	background:#ffffff;
+	padding: 20px;
+	box-shadow: 3px 3px 5px #aaa;
+	position: relative;
+	width: 31%;
+	margin-right: 27px;
+
+}
+.arrow
+{
+	width: 0px;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #ffffff;
+	position: absolute;
+	bottom:-30px;
+	left: 15%;
+}
+.bg6 img
+{
+	width: 13%;
+	position: absolute;
+	bottom: -85px;
+	left: 10px;
+}
+.bg6 .pos
+{
+	position: absolute;
+	bottom: -95px;
+	left: 70px;
+}
+.bg7
+{
+	background:#29302e;
+	padding: 70px;
+	color: #fff;
+	font-size:28px;
+}
+.bg7 span
+{
+	font-size: 18px;
+	float: right;
+	color: #20a7b6;
+}
+.bg8
+{
+	background:#ffffff;
+	padding: 50px 0px;
+}
+.bg8 h2
+{
+	font-weight: bold;
+}
+.bg8 .p
+{
+	line-height: 40px;
+}
+.bg81
+{
+	position: relative;
+}
+.bg81 h3
+{
+	font-weight: bold;
+}
+.bg8 .text
+{
+	position: absolute;
+	left: 55px;
+	color: #999999;
+}
+#t1
+{
+	position: absolute;
+	top: 1px;
+	left: -45px;
+	font-size: 38px!important;
+}
+#t2
+{
+	position: absolute;
+	top: 60px;
+	left: -45px;
+	font-size: 38px!important;
+}
+#t3
+{
+	position: absolute;
+	top: 140px;
+	left: -45px;
+	font-size: 38px!important;
+}
+.bg8 button
+{
+	background:#0cb8b6;
+	border-radius: 0px;
+	padding: 10px 15px;
+	color: #fff;
+}
+footer
+{
+	background:#325c6a;
+	padding: 40px 0px;
+	color: #fff;
+}
+footer h4
+{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+footer .a1
+{
+	float: left;
+	margin-left: 50px;
+}
+footer .a1 i
+{
+	padding: 20px;
+	background:#3498db;
+}
+footer .a2
+{
+	float: left;
+	margin-left: 5px;
+}
+footer .a2 i
+{
+	padding: 20px;
+	background:#e74c3c;
+}
+footer .a3
+{
+	float: left;
+	margin-left: 5px;
+}
+footer .a3 i
+{
+	padding: 20px;
+	background:#2c3e50;
+}
+footer .a4
+{
+	float: left;
+	margin-left: 5px;
+}
+footer .a4 i
+{
+	padding: 20px;
+	background:#3498db;
+}
+.footer
+{
+	padding: 20px 0px;
+	background:#325c6a;
+	border-top: 1px solid #ddd; 
+	color: #fff;
+	font-size: 16px;
+}
+.footer a
+{
+	color: #16b8b6;
+	font-size: 16px;
+}
